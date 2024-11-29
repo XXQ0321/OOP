@@ -38,12 +38,4 @@ public class HealthProfessional {
         this.age = age;
     }
 
-    @Override
-    public String toString() {
-        return "HealthProfessional{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
-}
+
