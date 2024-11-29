@@ -1,5 +1,5 @@
 public class Dentists extends HealthProfessional{
-    private String dentalLicenseNumber; // 牙医执业执照号码
+    private String dentalLicenseNumber; 
 
     public Dentists(){}
 
@@ -16,13 +16,4 @@ public class Dentists extends HealthProfessional{
         this.dentalLicenseNumber = dentalLicenseNumber;
     }
 
-    @Override
-    public String toString() {
-        return "The dentist details are: {" +
-                "id=" + getId() +
-                ", name='" + getName() + '\'' +
-                ", age=" + getAge() +
-                ", dentalLicenseNumber='" + dentalLicenseNumber + '\'' +
-                '}';
-    }
-}
+    
