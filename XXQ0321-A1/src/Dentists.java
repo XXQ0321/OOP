@@ -15,5 +15,15 @@ public class Dentists extends HealthProfessional{
     public void setDentalLicenseNumber(String dentalLicenseNumber) {
         this.dentalLicenseNumber = dentalLicenseNumber;
     }
+        @Override
+    public String toString() {
+        return "The dentist details are: {" +
+                "id=" + getId() +
+                ", name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", dentalLicenseNumber='" + dentalLicenseNumber + '\'' +
+                '}';
+    }
+}
 
     
