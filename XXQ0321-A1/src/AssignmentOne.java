@@ -23,7 +23,7 @@ public class AssignmentOne {
         System.out.println("------------------------------");
 
         // Part 5 – Collection of appointments
-        Appointment a = createAppointment("patientA", "123456", "08:00", g1);
+        Appointment a = createAppointment("patientA", "123456", "08:00", g1); 
         Appointment b = createAppointment("patientB", "567891", "10:00", g2);
         Appointment c = createAppointment("patientC", "677236", "10:00", d1);
         Appointment d = createAppointment("patientD", "938432", "14:30", d1);
